@@ -1,0 +1,47 @@
+body {
+    font-family: Arial;
+    background: #f4f4f4;
+    padding: 40px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.hero {
+    margin-top: 80px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    text-decoration: none;
+}
+
+form {
+    max-width: 300px;
+}
+
+input, button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    gap: 20px;
+}
+
+.card {
+    padding: 20px;
+    background: white;
+}
